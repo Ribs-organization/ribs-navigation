@@ -1,0 +1,45 @@
+{
+  "name": "ribs-navigation",
+  "version": "1.0.0",
+  "description": "this package create a responsive nav on all elements with ribs-nav and mobile class",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ribs-organization/ribs-navigation.git"
+  },
+  "keywords": [
+    "responsive",
+    "responsive-navigation",
+    "ribs-front-component",
+    "user-interface",
+    "user-experience"
+  ],
+  "author": "Anthony Pilloud",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ribs-organization/ribs-navigation/issues"
+  },
+  "homepage": "https://github.com/Ribs-organization/ribs-navigation#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.4.5",
+    "babel-core": "^6.26.3",
+    "babel-loader": "7.1.3",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-runtime": "^6.26.0",
+    "css-loader": "^2.1.0",
+    "mini-css-extract-plugin": "^0.5.0",
+    "node-sass": "^4.11.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "sass-loader": "^7.1.0",
+    "uglifyjs-webpack-plugin": "^2.1.1",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1"
+  },
+  "dependencies": {
+    "ribs-core": "*"
+  }
+}
