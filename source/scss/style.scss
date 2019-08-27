@@ -51,8 +51,12 @@ $ribs-nav-icon-color: #ccc;
 			.ribs-nav-close-icon {
 				display: block;
 				position: absolute;
-				right: -42px;
+				right: -40px;
 				padding: 10px;
+				min-width: 20px;
+				width: 20px;
+				max-width: 20px;
+				font-size: 2em;
 				background: $ribs-nav-background;
 				cursor: pointer;
 			}
