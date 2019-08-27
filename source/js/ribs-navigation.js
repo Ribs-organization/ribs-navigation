@@ -63,7 +63,7 @@ class RibsNav {
   definePosLeftMobileNav(navs) {
     Array.from(navs).forEach((element) => {
       if (!element.dataset.leftPosition && window.innerWidth < 576) {
-        element.dataset.leftPosition = RibsCore.getWidth(element);
+        element.dataset.leftPosition = parseInt(RibsCore.getWidth(element), 10)+50;
         if (element.style.display === '' || element.style.display === 'none') {
           element.style.left = `-${element.dataset.leftPosition}px`;
         }
