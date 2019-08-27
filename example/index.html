@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../dist/css/style.min.css">
+        <link rel="stylesheet" href="style.css">
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <i class="ribs-nav-open-icon" data-nav="main-nav">open nav</i>
+        <nav class="ribs-nav inline mobile" id="main-nav">
+            <i class="ribs-nav-close-icon">X</i>
+            <ul>
+                <li><a href="{{ url('index') }}">Projets</a></li>
+                <li><a href="{{ url('orders') }}">Commandes</a></li>
+                <li><a href="{{ url('about') }}">À propos</a></li>
+                <li>Contact</li>
+                <li>CV</li>
+            </ul>
+        </nav>
+
+        <script src="../dist/js/ribs-navigation.js"></script>
+    </body>
+</html>

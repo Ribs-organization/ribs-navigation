@@ -1,0 +1,21 @@
+nav {
+    float: right;
+    margin-top: 1rem;
+}
+
+@media all and (max-width: 576px) {
+    nav {
+        margin-top: 0;
+    }
+}
+
+nav li {
+    text-transform: uppercase;
+    padding: 10px;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.clear {
+    clear: both;
+}
