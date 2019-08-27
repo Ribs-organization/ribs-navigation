@@ -114,3 +114,5 @@ class RibsNav {
 }
 
 export default (RibsNav);
+
+const nav = new RibsNav();
