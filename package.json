@@ -40,6 +40,6 @@
     "webpack-cli": "^3.2.1"
   },
   "dependencies": {
-    "ribs-core": "*"
+    "ribs-core": "0.0.9-4"
   }
 }
